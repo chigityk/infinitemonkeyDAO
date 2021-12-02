@@ -3,7 +3,7 @@
   --secondary-text: #000000;
   --primary-bg: #cec3b0;
   --secondary-bg: #000000;
-  --nav-bg: #202020;
+  --nav-bg: #101010;
   --primary-font-family: 'Courier Prime', serif;
   --secondary-font-family: 'Nunito Sans', sans-serif;
 }
@@ -11,15 +11,22 @@
 .App {
   text-align: center;
   font-family: var(--primary-font-family);
+  background-color: var(--primary-bg);
 }
 
 .TopNav {
   background-color: var(--secondary-bg);
   color: var(--primary-text);
+  display: flex;
+  justify-content: space-between;
 }
 
+.LeftNav {
+  text-align: start;
+  padding: .75rem;
+}
 .RightNav {
-  text-align: right;
+  text-align: end;
   padding: .75rem;
 }
 
@@ -28,14 +35,11 @@
   background-color: var(--secondary-bg);
   color: var(--primary-text);
   font-family: var(--primary-font-family);
+  padding: 5px;
 }
 
 .MainSidebar  {
   background-color: var(--nav-bg);
   color: var(--primary-text);
   text-shadow: 1px;
-}
-
-.SidebarButton:hover {
-  color: #cec3b0;
 }
