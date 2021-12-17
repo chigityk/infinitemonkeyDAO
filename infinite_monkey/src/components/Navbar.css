@@ -57,7 +57,7 @@
     cursor: pointer;
     background-color: var(--primary-bg);
     color: var(--secondary-text);
-    padding: 10px 15px;
+    padding: 5px;
     border: none;
     border-radius: 5px;
   }
