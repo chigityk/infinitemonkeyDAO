@@ -1,11 +1,11 @@
-const Buy = () => {
+const Vote = () => {
     return (
       <>
         <div className='title'>
-          <h1>Buy $AUTHOR</h1>
+          <h1>Vote</h1>
         </div>
       </>
     )
   };
   
-  export default Buy;
+  export default Vote;

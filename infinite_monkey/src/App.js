@@ -13,6 +13,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import NoPage from './pages/NoPage';
 import Navbar from './components/Navbar';
+import Vote from './pages/Vote';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="buy" element={<Buy />} />
           <Route path="*" element={<NoPage />} />
+          <Route path="vote" element={<Vote />} />
         </Route>
       </Routes>
     </Router>

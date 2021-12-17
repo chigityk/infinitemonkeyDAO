@@ -40,6 +40,9 @@ function Navbar() {
             <li>
                 <Link to="/buy"><BsIcons.BsCurrencyDollar></BsIcons.BsCurrencyDollar> Buy</Link>
             </li>
+            <li>
+                <Link to="/vote"><BsIcons.BsCheck></BsIcons.BsCheck> Vote</Link>
+            </li>
         </ul>
     </div>
     <div id='main'>
