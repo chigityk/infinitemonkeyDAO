@@ -14,3 +14,21 @@ body {
     color: var(--secondary-text);
     margin: 10px;
 }
+
+.errorcontain {
+  text-align: center;
+}
+
+.loom {
+  background-color: #202020;
+  width: 100%;
+  padding: 10px;
+  color: var(--primary-text);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 3px;
+}
+
+.loomfoot {
+  text-align: center;
+}
