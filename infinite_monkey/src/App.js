@@ -19,7 +19,7 @@ function App() {
     <>
     <div className='TopNav'>
       <div className='LeftNav'>
-        <h4>infinitemonkeyDAO</h4>
+        <h2>infinitemonkeyDAO</h2>
       </div>
       <div className='RightNav'>
         <button className='walletconnect'>connect wallet</button>
