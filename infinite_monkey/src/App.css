@@ -15,8 +15,9 @@
 }
 
 .TopNav {
-  background-color: var(--secondary-bg);
-  color: var(--primary-text);
+  background-color: var(--primary-bg);
+  color: var(--secondary-text);
+  size: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -30,7 +31,7 @@
   padding: .75rem;
 }
 
-.ConnectBtn {
+.walletconnect {
   border-radius: 10px;
   background-color: var(--secondary-bg);
   color: var(--primary-text);

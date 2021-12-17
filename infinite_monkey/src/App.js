@@ -17,9 +17,14 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <>
-    <header className='TopNav'>
-      <h1>infinitemonkeyDAO</h1>
-    </header>
+    <div className='TopNav'>
+      <div className='LeftNav'>
+        <h4>infinitemonkeyDAO</h4>
+      </div>
+      <div className='RightNav'>
+        <button className='walletconnect'>connect wallet</button>
+      </div>
+    </div>
 
     <Router>
       <Routes>

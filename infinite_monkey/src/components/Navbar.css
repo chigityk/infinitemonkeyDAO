@@ -19,7 +19,7 @@
     left: 0;
     background-color: var(--sidebar-bg); /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
+    padding-top: 40px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
   }
   
@@ -55,15 +55,15 @@
   .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: var(--sidebar-bg);
-    color: white;
+    background-color: var(--primary-bg);
+    color: var(--secondary-text);
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
   }
   
   .openbtn:hover {
-    background-color: #444;
+    background-color: #f1f1f1;
   }
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
