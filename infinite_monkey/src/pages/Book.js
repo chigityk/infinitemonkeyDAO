@@ -1,11 +1,5 @@
-import React from 'react'
-
-function Book() {
-    return (
-        <div>
-            Book
-        </div>
-    )
-}
-
-export default Book
+const Book = () => {
+    return <h1>THE LOOM</h1>;
+  };
+  
+  export default Book;

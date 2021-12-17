@@ -1,0 +1,16 @@
+:root {
+    --primary-text: #ffffff;
+    --secondary-text: #000000;
+    --primary-bg: #cec3b0;
+    --secondary-bg: #000000;
+    --nav-bg: #101010;
+    --primary-font-family: 'Courier Prime', serif;
+    --secondary-font-family: 'Nunito Sans', sans-serif;
+  }
+
+body {
+    background-color: var(--primary-bg);
+    font-family: var(--primary-font-family);
+    color: var(--secondary-text);
+    margin: 10px;
+}
